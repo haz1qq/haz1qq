@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" role="img" aria-labelledby="title desc">
+  <title id="title">Hazen — Keep calm and code at 1 AM</title>
+  <desc id="desc">A solidly built, tan-skinned man in his early twenties with understated muscle, a middle-part haircut, a thicker pencil mustache, wired earphones, and a relaxed short-sleeved shirt works on a Dell laptop centered directly in front of him, with the back of its lid facing the viewer. A glass of iced Americano sits beside him. A music card shows Secondhand by Don Toliver playing through his earphones. A table clock reads 01:00 AM. A decorative terminal shows php artisan serve, reflecting his enthusiasm for backend development, and an Ellie project card features a black-and-white cat and describes his local-first AI usage tracker. Equalizer bars animate gently.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#161e2b"/><stop offset="1" stop-color="#273344"/></linearGradient>
+    <linearGradient id="lid" x2="0.8" y2="1"><stop stop-color="#87929e"/><stop offset=".45" stop-color="#596674"/><stop offset="1" stop-color="#384553"/></linearGradient>
+    <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#89664e"/><stop offset="1" stop-color="#664b3c"/></linearGradient>
+    <style>
+      .equalizer { transform-box: fill-box; transform-origin: center bottom; animation: beat 1.2s ease-in-out infinite alternate; }
+      .equalizer:nth-child(2) { animation-delay: -.4s; }
+      .equalizer:nth-child(3) { animation-delay: -.8s; }
+      .equalizer:nth-child(4) { animation-delay: -.2s; }
+      @keyframes beat { from { transform: scaleY(.3); } to { transform: scaleY(1); } }
+      @media (prefers-reduced-motion: reduce) { .equalizer { animation: none; } }
+    </style>
+  </defs>
+  <rect width="840" height="500" rx="24" fill="url(#wall)"/>
+  <!-- Window and quiet night-time workspace. -->
+  <rect x="48" y="55" width="198" height="215" rx="9" fill="#0d1522" stroke="#3e4d60" stroke-width="7"/>
+  <circle cx="198" cy="96" r="19" fill="#e9d6a8"/>
+  <g fill="#243449"><path d="M59 260v-90h36v90m8 0V139h43v121m10 0v-70h43v70m8 0v-105h28v105"/></g>
+  <g fill="#d8ad69" opacity=".65"><path d="M114 156h7v9h-7zm15 0h7v9h-7zm-15 24h7v9h-7zm58 29h7v9h-7zm44-35h7v9h-7z"/></g>
+  <path d="M147 59v208M52 159h190" stroke="#3e4d60" stroke-width="5"/>
+  <!-- Table clock with feet resting on the desk; fixed at the usual coding hour. -->
+  <g font-family="monospace" text-anchor="middle">
+    <path d="M92 375v7m111-7v7" stroke="#8c99a5" stroke-width="7"/>
+    <rect x="78" y="338" width="140" height="40" rx="8" fill="#465361" stroke="#8995a3" stroke-width="2"/>
+    <rect x="85" y="344" width="126" height="27" rx="4" fill="#101925"/>
+    <text x="132" y="364" font-size="23" fill="#9dc7b3">01:00</text>
+    <text x="191" y="363" font-size="12" fill="#9dc7b3">AM</text>
+  </g>
+  <!-- Decorative terminal: identifies the workflow, not a live session. -->
+  <g font-family="monospace">
+    <rect x="52" y="286" width="194" height="44" rx="10" fill="#101925" stroke="#465369"/>
+    <path d="M52 309h194" stroke="#354456"/>
+    <circle cx="65" cy="298" r="3" fill="#c4a7e7"/>
+    <circle cx="76" cy="298" r="3" fill="#e9d6a8"/>
+    <circle cx="87" cy="298" r="3" fill="#9dc7b3"/>
+    <text x="103" y="302" font-size="10" fill="#b6c1d0">backend</text>
+    <text x="65" y="324" font-size="12" fill="#9dc7b3">$ php artisan serve</text>
+  </g>
+  <!-- Ellie project identity; no illustrative quota values presented as live data. -->
+  <g font-family="Verdana, sans-serif">
+    <rect x="567" y="192" width="221" height="94" rx="12" fill="#1d2432" stroke="#7c637e"/>
+    <text x="582" y="212" font-family="monospace" font-size="9" letter-spacing="1.4" fill="#d7aac7">IN DEVELOPMENT</text>
+    <text x="582" y="239" font-size="22" font-weight="bold" fill="#eee5d9">ellie</text>
+    <text x="582" y="258" font-size="10" fill="#d9c4d3">Local-first AI usage tracker</text>
+    <text x="582" y="275" font-family="monospace" font-size="10" fill="#a8b6c6">github.com/haz1qq/ellie</text>
+    <!-- Illustrative black-and-white cat, not an exact copy of Ellie's markings. -->
+    <path d="M737 234l-2-19 13 8q7-3 13 0l12-8-1 19q4 15-17 15t-18-15z" fill="#111821" stroke="#9ca7b6" stroke-width="1.5"/>
+    <path d="M754 225q-7 11-13 14 3 9 14 9t14-9q-10-3-15-14z" fill="#f0ede6"/>
+    <path d="m755 238-3 3h6z" fill="#c18ba8"/>
+    <path d="M744 232h3m15 0h3" stroke="#d7aac7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Decorative music player, not a live playback integration. -->
+  <rect x="567" y="62" width="221" height="114" rx="12" fill="#1d2938" stroke="#465369"/>
+  <text x="585" y="86" font-family="monospace" font-size="10" letter-spacing="2" fill="#9dc7b3">NOW PLAYING</text>
+  <text x="585" y="115" font-family="Verdana, sans-serif" font-size="20" font-weight="bold" fill="#eee5d9">Secondhand</text>
+  <text x="585" y="138" font-family="monospace" font-size="11" fill="#b6c1d0">Don Toliver</text>
+  <g fill="#9dc7b3">
+    <rect class="equalizer" x="746" y="89" width="4" height="21" rx="2"/>
+    <rect class="equalizer" x="753" y="82" width="4" height="28" rx="2"/>
+    <rect class="equalizer" x="760" y="92" width="4" height="18" rx="2"/>
+    <rect class="equalizer" x="767" y="86" width="4" height="24" rx="2"/>
+  </g>
+  <path d="M585 155h153" stroke="#435368" stroke-width="3" stroke-linecap="round"/>
+  <path d="M585 155h58" stroke="#c4a7e7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="643" cy="155" r="3" fill="#e1d2f2"/>
+  <path d="M756 150v10m6-10v10" stroke="#b6c1d0" stroke-width="3" stroke-linecap="round"/>
+  <!-- Solid frame under a relaxed shirt, without visible muscle definition. -->
+  <rect x="283" y="236" width="235" height="177" rx="45" fill="#101820" stroke="#394657" stroke-width="6"/>
+  <path d="M284 384l-3-72q-9-54 64-66h102q73 10 74 64l7 74z" fill="#576d66" stroke="#273f3a" stroke-width="3"/>
+  <path d="M358 229v35q34 29 66-1v-36" fill="#a56943"/>
+  <path d="M345 252q46 51 93 0" fill="none" stroke="#324f47" stroke-width="8"/>
+  <path d="M323 320q-5 20-2 34m25-20-3 29m116-42q7 13 6 27" fill="none" stroke="#496158" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tan complexion, curtain-style middle part, mustache, and earbuds. -->
+  <ellipse cx="333" cy="186" rx="14" ry="22" fill="#b97d50"/>
+  <ellipse cx="445" cy="186" rx="14" ry="22" fill="#b97d50"/>
+  <path d="M334 146q4-52 58-52t54 53l-4 59q-5 43-49 48-44-7-53-47z" fill="#b97d50"/>
+  <path d="M390 90q-25-23-49 0-26 18-18 65l14 27 5-39q34-7 48-43 15 36 47 43l7 39 13-27q10-48-18-65-25-23-49 0z" fill="#242126"/>
+  <g fill="none" stroke="#493a36" stroke-width="4" stroke-linecap="round">
+    <path d="M382 96q-13 25-39 34m31-38q-28 7-37 31M399 96q13 25 37 34m-30-38q28 7 37 31"/>
+  </g>
+  <g stroke="#46312f" stroke-width="4" fill="none" stroke-linecap="round"><path d="m352 174 18-3m35 0 18 3"/></g>
+  <g fill="#29252a"><ellipse cx="363" cy="185" rx="4" ry="5"/><ellipse cx="414" cy="185" rx="4" ry="5"/></g>
+  <path d="m389 184-5 18 10 2" fill="none" stroke="#ac755c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M375 219q7-3 13-2m5 0q7-1 14 2" fill="none" stroke="#35272a" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M380 227q12 5 24-1" fill="none" stroke="#925e50" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#e0e6e7"><rect x="329" y="181" width="9" height="19" rx="4"/><rect x="443" y="181" width="9" height="19" rx="4"/></g>
+  <path d="M333 199q-11 68 27 106l21 29m66-135q10 73-27 107l-39 28v47" fill="none" stroke="#ced9dd" stroke-width="2"/>
+  <!-- Desk and arms behind a laptop facing the seated developer. -->
+  <rect x="45" y="382" width="750" height="25" rx="7" fill="url(#desk)"/>
+  <path d="M77 407v38m686-38v38" stroke="#4a3b36" stroke-width="13"/>
+  <path d="M317 261q-31-4-38 28l-15 52q-8 28 21 34l76 6 12-28-64-10 25-47q6-22-17-35z" fill="#b97d50" stroke="#925c3c" stroke-width="2"/>
+  <path d="M487 261q32-4 45 29l28 48q15 30-16 39l-75 6-8-28 57-14-34-42q-18-26 3-38z" fill="#b97d50" stroke="#925c3c" stroke-width="2"/>
+  <!-- Dropped shoulders and roomy, straight sleeve hems. -->
+  <path d="M323 251q-43-3-52 36l-10 36 67 6 12-42q4-26-17-36z" fill="#576d66" stroke="#273f3a" stroke-width="2"/>
+  <path d="M481 251q43-2 56 36l18 36-65 8-17-43q-9-27 8-37z" fill="#576d66" stroke="#273f3a" stroke-width="2"/>
+  <g fill="none" stroke="#71877e" stroke-width="1.5" stroke-linecap="round">
+    <path d="m265 318 60 6m168 2 57-8"/>
+  </g>
+  <g fill="none" stroke="#496158" stroke-width="2" stroke-linecap="round">
+    <path d="M305 269q-7 12-8 24m206-24q9 11 12 23"/>
+  </g>
+  <path d="m352 361 27-8q13-3 24 8l16 13-58 2" fill="#c38a5d"/>
+  <path d="m475 361-22-6q-12-3-24 7l-13 13 58 2" fill="#c38a5d"/>
+  <!-- Rear view: centered under his face, with screen and keyboard hidden. -->
+  <ellipse cx="394" cy="387" rx="145" ry="7" fill="#352c29" opacity=".35"/>
+  <path d="M262 378h264l12 6q3 4-5 5H255q-8-1-5-5z" fill="#465361" stroke="#26323e" stroke-width="2"/>
+  <path d="M264 271q-1-8 8-8h244q9 0 8 8l-10 104q0 7-8 7H282q-8 0-8-7z" fill="url(#lid)" stroke="#202c38" stroke-width="3"/>
+  <path d="M275 266h238" stroke="#b9c3cb" stroke-width="1.5" opacity=".7"/>
+  <path d="m268 275 10 97" stroke="#a5b1bc" stroke-width="1" opacity=".4"/>
+  <path d="M284 377h220" stroke="#283642" stroke-width="2"/>
+  <circle cx="394" cy="320" r="23" fill="none" stroke="#d7dfe5" stroke-width="2"/>
+  <text x="394" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="-.8" fill="#e2e8ec">DELL</text>
+  <path d="M267 386h254" stroke="#8c99a5" stroke-width="1" opacity=".65"/>
+  <!-- Unlabelled clear glass of iced black coffee, with ice and condensation. -->
+  <path d="M646 310h57l-6 64q-23 12-45 0z" fill="#bdd8dc" fill-opacity=".16" stroke="#a4c3ca" stroke-width="2"/>
+  <path d="M650 327h49l-5 45q-20 8-39 0z" fill="#442a1c"/>
+  <ellipse cx="674.5" cy="328" rx="24" ry="6" fill="#6c4329"/>
+  <g fill="#bedce2" fill-opacity=".7" stroke="#d7e8eb" stroke-width="1.5">
+    <rect x="654" y="319" width="15" height="15" rx="3" transform="rotate(-15 662 326)"/>
+    <rect x="678" y="316" width="16" height="16" rx="3" transform="rotate(18 686 324)"/>
+    <rect x="667" y="333" width="16" height="15" rx="3" transform="rotate(9 675 340)"/>
+  </g>
+  <ellipse cx="674.5" cy="310" rx="28.5" ry="7" fill="none" stroke="#b8d1d7" stroke-width="2"/>
+  <path d="m688 336 9-43 13-9" fill="none" stroke="#d4c6b2" stroke-width="3" stroke-linecap="round"/>
+  <path d="m653 339 3 27" stroke="#e0f1f2" stroke-width="2" opacity=".45"/>
+  <g fill="#cce4e8" opacity=".65"><ellipse cx="697" cy="344" rx="2" ry="3"/><ellipse cx="691" cy="360" rx="1.5" ry="2.5"/><ellipse cx="657" cy="353" rx="1.5" ry="2"/></g>
+  <text x="420" y="455" text-anchor="middle" font-family="Verdana, sans-serif" font-size="19" font-weight="bold" fill="#e4ded4">Keep calm and code.</text>
+  <text x="420" y="480" text-anchor="middle" font-family="monospace" font-size="12" fill="#a8b6c6">01:00 AM. earphones in. building ellie.</text>
+</svg>
