@@ -1,7 +1,7 @@
 # Hi there! I’m Haziq, or Hazen 👋
 
 <p align="center">
-  <img src="coding-hazen2.svg" width="720" alt="A solidly built, tan-skinned developer in a relaxed short-sleeved shirt, with a middle-part haircut, pencil mustache, and earphones, codes on a laptop beside iced black coffee, with a cigarette at his lips." />
+  <img src="coding-hazen.svg" width="720" alt="A solidly built, tan-skinned developer in a relaxed short-sleeved shirt, with a middle-part haircut, pencil mustache, and earphones, codes on a laptop beside iced black coffee, with a cigarette at his lips." />
 </p>
 
 - 🛠️ **A system development enthusiast** who enjoys turning ideas into working software.
